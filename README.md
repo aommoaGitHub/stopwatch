@@ -1,4 +1,4 @@
-# Stopwatch tasks by Vittunyuta Maeprasart (5910545019)
+## Stopwatch tasks by Vittunyuta Maeprasart (5910545019)
 I ran the tasks on a Mac book pro, and got these results:
 
 Task                                                   | Time
@@ -11,6 +11,6 @@ Sum array of Double objects with count is 1 billion    | 6.164611 sec
 Sum array of BigDecimal with count is 1 billion        | 11.327104 sec
 
 
-## Explanation of Results
-##### String
+### Explanation of Results
+#### String
 
