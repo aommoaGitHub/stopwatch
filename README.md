@@ -12,5 +12,7 @@ Sum array of BigDecimal with count is 1 billion        | 11.327104 sec
 
 
 ### Explanation of Results
-#### String
+*****
+#### String & StringBuilder
+
 

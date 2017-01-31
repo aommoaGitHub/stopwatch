@@ -1,9 +1,26 @@
 package stopwatch;
 
+/**
+ * TaskTimer is used to measure elapsed time in seconds.
+ * @author Vittunyuta Maeprasart
+ *
+ */
 public class TaskTimer {
 	
-	Stopwatch timer = new Stopwatch();
+	private Stopwatch timer;
 
+	/**
+	 * Initialize timer
+	 */
+	public TaskTimer() {
+		this.timer = new Stopwatch();
+	}
+	
+	/**
+	 * measure the elapsed time in seconds, then
+	 * print out description and the elapsed time of the task to the console
+	 * @param r is to task for running
+	 */
 	void measureAndPrint(Runnable r) {
 		
 		timer.start();
