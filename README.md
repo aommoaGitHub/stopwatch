@@ -22,7 +22,7 @@ On the same way, **StringBuilder** works like String but StringBuilder has it de
 ### double, Double and BigDecimal
 The table indicates that in the same count, summing array of double is the fastest. Double is the second. And BigDecimal is slowest.<br />
 
-**double** is a primitive type that will be put into registers. Registers are very fast processing. Primitive type doesn't like Object type such as `Double` and `BigDecimal`. It doesn't have any attributes and methods. Also, store less digit cause taking less time for computation.<br />
+**double** is a primitive type. Primitive type doesn't like Object type such as `Double` and `BigDecimal`. It doesn't have any attributes and methods. Also, store less digit and don't have to unbox before computation as `Object type`. So it takes less time for computation.<br />
 
 **Double** and **BigDecimal** work like `String` but `BigDecimal` store digit larger than `Double` and `double`. So `BigDecimal` take a lot of time for computation.<br />
 *****
