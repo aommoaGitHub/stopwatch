@@ -22,7 +22,7 @@ public class Stopwatch {
 		this.running = false;
 	}
 	/** reset the stopwatch and start if stopwatch is not running */
-	void start() {
+	public void start() {
 		if (!isRunning()) {
 			this.stopTime = 0;
 			this.startTime = System.nanoTime();
@@ -30,7 +30,7 @@ public class Stopwatch {
 		}
 	}
 	/** stop the stopwatch */
-	void stop() {
+	public void stop() {
 		if (isRunning()) {
 			this.stopTime = System.nanoTime();
 			this.running = false;
@@ -41,7 +41,7 @@ public class Stopwatch {
 	 * @return time since start until the current time if the stopwatch is running
 	 * @return time between the start and stop times if the stopwatch is stopped
 	 */
-	double getElapsed() {
+	public double getElapsed() {
 		if (isRunning())
 			return (System.nanoTime() - this.startTime) * NANOSECONDS;
 		else
@@ -53,7 +53,7 @@ public class Stopwatch {
 	 * @return true if the stopwatch is running
 	 * @return false if the stopwatch is stopped
 	 */
-	boolean isRunning() {
+	public boolean isRunning() {
 		return this.running;
 	}
 

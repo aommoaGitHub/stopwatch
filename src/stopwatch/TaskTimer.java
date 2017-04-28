@@ -21,7 +21,7 @@ public class TaskTimer {
 	 * print out description and the elapsed time of the task to the console
 	 * @param r is to task for running
 	 */
-	void measureAndPrint(Runnable r) {
+	public void measureAndPrint(Runnable r) {
 		
 		timer.start();
 		r.run();
